@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: ds-list
+  profiles:
+    active: ${APP_PROFILE:test}
+  jpa:
+    open-in-view: false
+
+cors:
+  origins: ${CORS_ORIGINS}
